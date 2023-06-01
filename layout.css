@@ -1,0 +1,47 @@
+.main-container {
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    margin: auto;
+}
+
+.form-container {
+    width: 600px;
+}
+
+.item-container,
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-container {
+    margin-bottom: 4px;
+    height: 45px
+}
+
+.status-date-container {
+    display: flex;
+    width: 185px;
+
+}
+
+p {
+    margin-bottom: 6px;
+}
+
+.checkbox-container {
+    width: 220px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+
+.comment-container {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
